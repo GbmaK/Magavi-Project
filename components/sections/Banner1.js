@@ -11,7 +11,7 @@ export default function Banner1() {
                         <div className="col-lg-12">
                             <div className="banner-content ta-animated-headline">
                                 <h2 className="title ah-headline wow fadeInUp" data-wow-delay=".2s">
-                                    <span>En MAGAVI ofrecemos soluciones que utlizan:  </span>
+                                    <span>En MAGAVI ofrecemos soluciones que utilizan:  </span>
                                     <Typewriter tag="span"
                                         options={{
                                             wrapperClassName: "ah-words-wrapper",
