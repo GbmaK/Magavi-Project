@@ -44,7 +44,8 @@ export default function Help() {
                                             <div className="form-grp">
                                                 <label htmlFor="search"><i className="far fa-search" /></label>
                                                 <input type="text" id="search" placeholder="Write a question or problem" value={search} onChange={(e) => setSearch(e.target.value)}/>
-                                                <button type="submit" className="gradient-btn">search</button>
+                                                <button type="submit" className="gradient-btn" onClick={() => console.log(search)}>search</button>
+                                                <Search search={search} filter1={""}/>
                                             </div>
                                             <span>Or choose a category to quickly find the help you need</span>
                                         </form>
