@@ -1,7 +1,14 @@
 import Layout from "@/components/layout/Layout"
+import Search from "@/components/tools/SearchComponent"
 import Link from "next/link"
 import { useState } from 'react'
+import { Value } from "sass"
 export default function Help() {
+    //Estados del buscador
+    const[search, setSearch] = useState("")
+    const[filter1, setFilter1] = useState("")
+
+
     const [activeIndex, setActiveIndex] = useState(1)
     const handleOnClick = (index) => {
         setActiveIndex(index)
@@ -36,7 +43,7 @@ export default function Help() {
                                         <form action="#">
                                             <div className="form-grp">
                                                 <label htmlFor="search"><i className="far fa-search" /></label>
-                                                <input type="text" id="search" placeholder="Write a question or problem" />
+                                                <input type="text" id="search" placeholder="Write a question or problem" value={search} onChange={(e) => setSearch(e.target.value)}/>
                                                 <button type="submit" className="gradient-btn">search</button>
                                             </div>
                                             <span>Or choose a category to quickly find the help you need</span>
