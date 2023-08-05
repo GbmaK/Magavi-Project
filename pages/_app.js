@@ -13,6 +13,8 @@ import "/public/assets/css/default.css"
 import "/public/assets/css/select2.min.css"
 import "/public/assets/css/style.css"
 import "/public/assets/css/responsive.css"
+import "/public/assets/css/sectionsStyles/section1.css"
+import "/public/assets/css/sectionsStyles/section2.css"
 
 function MyApp({ Component, pageProps }) {
     const [loading, setLoading] = useState(true)

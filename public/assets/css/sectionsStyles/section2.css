@@ -1,0 +1,131 @@
+.header-section-2 {
+  background-color: #000000ed;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-container-section-2 {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image-section-2 {
+    width: 24vh;
+    height: 18vh;
+}
+
+.header-links-section-2 {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    height: 100%;
+}
+
+.header-links-section-2 a {
+    text-decoration: none;
+    padding: 0 1vh;
+    color: #ffffff;
+    padding: 0 1vh;
+}
+
+.filtro-section-2 {
+    display: flex;
+    background-color: #000000;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.filtro-section-2 h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0.5px 1px rgb(255, 255, 255);
+    font-size: 3vh;
+    margin-bottom: 8.5vh;
+}
+
+#search-input-section-2 {
+    width: 65%;
+    height: 4.5vh;
+    border: solid #fffdfd 1px;
+    border-radius: 18px;
+    margin-top: 7vh;
+}
+
+.filtro-section-2 h1{
+    color: #ffffff;
+    font-size: 2.5vh;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 63vh;
+}
+
+.filtro-section-2 input {
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.filtro-section-2 button {
+  display: block;
+  padding: 8px 15px;
+  background-color: #6a02da;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 3vh;
+
+  height: 5vh;
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  --tg-secondary-color: #774ada;
+}
+
+.filtro-input-section-2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.result-section-2 {
+    background-color: #000000;
+    height: 51.1vh;
+}
+
+.result-section-2 h1{
+    text-align: center;
+    font-size: revert;
+}
+
+.response-section-2 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.result-reponse-section-2 {
+    padding: 2px;
+}
+
+.result-reponse-section-2 p {
+    color: #bb7bff;
+}
+
+.result-image-section-2 {
+    background-color: #D0CBD1;
+    width: 40vh;
+    height: 25vh;
+    overflow: hidden;
+}
