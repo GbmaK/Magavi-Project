@@ -19,12 +19,12 @@ export default function Banner1() {
 
                             <dialog open={modalClick1} style={{background: "black"}}>
                                 <h3>Empresa de innovacion y soluciones de problemas con inteligencia artifical</h3>
-                                <marquee>Eduardo vender besos a domicilio  +56 9 3342 9923</marquee>
+                                <marquee>hols rn marquee</marquee>
                             </dialog>
 
                             <dialog open={modalClick2} style={{background: "black"}}>
                                 <h3>Empresa de innovacion y soluciones de problemas con inteligencia artifical</h3>
-                                <marquee>Eduardo ya no vende besos a domicilio  +56 9 3342 9923</marquee>
+                                <marquee>hola en marquee</marquee>
                             </dialog>
 
                         </div>
