@@ -15,6 +15,7 @@ import "/public/assets/css/style.css"
 import "/public/assets/css/responsive.css"
 import "/public/assets/css/sectionsStyles/section1.css"
 import "/public/assets/css/sectionsStyles/section2.css"
+import "/public/assets/css/modals.css"
 
 
 function MyApp({ Component, pageProps }) {
