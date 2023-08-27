@@ -30,11 +30,16 @@ export default function Banner1() {
 
                                     <div className="dialog-left-containers">
                                         <div class="dialog-top-left-container">
-                                            <h1>ASESORIA EN <span className="dialog-span-gradient">CIBERSEGURIDAD</span></h1>
+                                            <h1>Soluciones <span className="dialog-span-gradient">Inteligentes</span></h1>
                                         </div>
                                         <div class="dialog-bottom-left-container">
-                                            <p>¿Tus datos están protegidos? Nuestro equipo de expertos en ciberseguridad y protección de 
-                                                datos están aquí para brindarle asesoría personalizada. Garantice la seguridad de su información.</p>
+                                            <p>Potencie su éxito de su negocio con 
+                                            inteligencia artifcial. 
+                                            Nuestras soluciones personalizadas 
+                                            impulsan la productividad y aumentan 
+                                            las ventas. ¡Descubra el futuro de los 
+                                            negocios hoy mismo!
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
