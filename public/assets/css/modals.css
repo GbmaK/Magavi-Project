@@ -23,7 +23,7 @@
     width: 80%;
     height: 70vh;
     z-index: 2;
-    background-image: url('../img/bg/error_bg.jpg');
+    background-image: url('../img/bg/error_bg.png');
     background-size: cover;
     top: 20vh;
 }
