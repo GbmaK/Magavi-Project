@@ -30,7 +30,7 @@ export default function Banner1() {
 
                                     <div className="dialog-left-containers">
                                         <div class="dialog-top-left-container">
-                                            <h1>Soluciones <span className="dialog-span-gradient">Inteligentes</span></h1>
+                                            <h1>SOLUCIONES <span className="dialog-span-gradient">INTELIGENTES</span></h1>
                                         </div>
                                         <div class="dialog-bottom-left-container">
                                             <p>Potencie su éxito de su negocio con 
