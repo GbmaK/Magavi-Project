@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.banner1-title-button{
+    position: relative;
+    text-align: center;
+}
+
+.banner1-title-button h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.banner1-title-button button{
+    margin: 0 2% 0 2%;
+}
+
+
+
+.dialog {
+    border-style: none;
+    width: 80%;
+    height: 70vh;
+    z-index: 2;
+    background-image: url('../img/bg/error_bg.jpg');
+    background-size: cover;
+    top: 20vh;
+}
+
+.dialog-container {
+    width: 100%;
+    height: 55vh;
+    border-radius: 12px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: flex-start;
+}
+
+.dialog-right-container{
+    width: 45%; 
+    background-color: #f0f0f000;
+    position: relative;
+    height: 30vh;
+    margin: 3vh 3vh 1vh 1vh;
+}
+
+.dialog-left-containers {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 43%;
+    justify-content: space-around;
+    height: 75%;
+
+    padding-top: 8vh;
+    padding-left: 3vh;
+}
+
+.dialog-top-left-container {
+    padding: 10px;
+}
+
+.dialog-top-left-container h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7vh;
+}
+
+.dialog-span-gradient{
+    background: linear-gradient(101.06deg, #8856DA 41.83%, #45F5F5 57.51%, #45F5F5 57.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.dialog-bottom-left-container {
+    color: #E3E3E3;
+    padding: 10px;
+}
+
+.dialog-bottom-left-container p{
+    color: #E3E3E3;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: large;
+    font-weight: 400;
+    line-height: 3vh;
+}
+
+
+.dialog-buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+}
+
+#dialog-close-btn {
+    color: #8856DA;
+    border: #8856DA solid 2px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    width: 13%;
+    height: 7vh;
+    border-radius: 15px;
+    margin-left: 15%;
+}
+
+#dialog-close-btn:hover {
+    transition: 300ms;
+
+    color: #45F5F5;
+    border: #45F5F5 solid 2px;
+}
+
+#dialog-chat-btn {
+    color: #fff;
+    border-style: none;
+    background-color: #7E56DA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    width: 17%;
+    height: 9vh;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+    border-radius: 15px;
+    margin-right: 16%;
+}
+
+#dialog-chat-btn:hover{
+    transition: 800ms;
+    background-color: #45F5F5;
+    color: #000000;
+}
