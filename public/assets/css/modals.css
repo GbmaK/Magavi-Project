@@ -143,3 +143,95 @@
     background-color: #45F5F5;
     color: #000000;
 }
+
+/*Estilos Chat*/
+
+#chat-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: hidden;
+}
+
+#chat-messages-container{
+    overflow-y: scroll;
+}
+
+#chat-messages-container::-webkit-scrollbar {
+    width: 0.5em; 
+}
+      
+#chat-messages-container::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+}
+      
+#chat-messages-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#chat-input-container{
+    display: flex;
+    justify-content: center;
+}
+
+#chat-input{
+    width: 90%;
+    background-color: #2C2C2C;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    max-height: 60px;
+
+}
+
+#textarea-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: #2C2C2C;
+    border-radius: 15px;
+}
+
+#send-button{
+    background-color: aliceblue;
+}
+
+#user-text-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+#user-text{
+    background: linear-gradient(144deg, rgba(202, 0, 206, 0.80) 0%, rgba(69, 0, 255, 0.80));
+    color: #ffffff;
+    padding: 12px;
+    width: fit-content;
+    text-align: right;
+    height: auto;
+    max-width: 60%;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+}
+
+#user-text-time{
+    color: #707070;
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+    
+
+
+
+
+
+
+/*Estilos Chat*/
