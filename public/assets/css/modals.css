@@ -144,3 +144,122 @@
     background-color: #45F5F5;
     color: #000000;
 }
+
+/*Estilos Chat*/
+
+#chat-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: hidden;
+}
+
+#chat-messages-container{
+    overflow-y: scroll;
+}
+
+#chat-messages-container::-webkit-scrollbar {
+    width: 0.5em; 
+}
+      
+#chat-messages-container::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+}
+      
+#chat-messages-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#chat-input-container{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    align-items: flex-end;
+    
+}
+
+
+
+#chat-input{
+    width: 90%;
+    background-color: #2C2C2C;
+    border: none;
+    color: #fff;
+    max-height: 150px;
+    height:40px;
+    font-size: 18px;
+    resize: none;
+    margin-top: 5px;
+    
+
+}
+
+
+#chat-input::-webkit-scrollbar {
+    width: 0.5em; 
+}
+      
+#chat-input::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+}
+      
+#chat-input::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#textarea-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: #2C2C2C;
+    border-radius: 15px;
+}
+
+#send-button{
+    background-color: aliceblue;
+    color: #fff;
+    border-radius: 15px;
+    height: 45px;
+    width: fit-content;
+    margin-left: 8px;
+    border: none;
+    background: linear-gradient(104deg, #EE02F3 0%, #4500FF 100%);
+    font-size: 20px;
+    text-align: right;
+}
+
+#user-text-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+#user-text{
+    background: linear-gradient(144deg, rgba(202, 0, 206, 0.80) 0%, rgba(69, 0, 255, 0.80));
+    color: #ffffff;
+    padding: 12px;
+    width: fit-content;
+  
+    direction: ltr;
+    height: auto;
+    max-width: 60%;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#user-text-time{
+    color: #707070;
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+    
+/*Estilos Chat*/
