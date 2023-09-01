@@ -147,6 +147,25 @@
 
 /*Estilos Chat*/
 
+#dialog-close-btn-chat {
+    position: absolute;
+    background-color: aliceblue;
+    color: #848484;
+    border-radius: 15px;
+    height: 45px;
+    width: fit-content;
+    background-color: #00000000;
+    margin-left: 8px;
+    border: none;
+    font-size: 20px;
+    text-align: right;
+}
+
+#dialog-close-btn-chat:hover {
+    color: #fff;
+}
+
+
 #chat-container{
     height: 100%;
     display: flex;
@@ -157,6 +176,7 @@
 
 #chat-messages-container{
     overflow-y: scroll;
+    z-index: 1;
 }
 
 #chat-messages-container::-webkit-scrollbar {
@@ -174,15 +194,16 @@
 #chat-input-container{
     display: flex;
     justify-content: center;
-    height: fit-content;
     align-items: flex-end;
-    
+    position: absolute;
+    z-index: 2;
+    width: 100%;
 }
 
 
 
 #chat-input{
-    width: 90%;
+    width: 94%;
     background-color: #2C2C2C;
     border: none;
     color: #fff;
@@ -191,8 +212,13 @@
     font-size: 18px;
     resize: none;
     margin-top: 5px;
-    
+    font-family: 'Roboto', sans-serif;
+}
 
+#chat-input::placeholder{
+    color: #ffffff7d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 
@@ -211,9 +237,10 @@
 #textarea-container {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 60%;
     background-color: #2C2C2C;
     border-radius: 15px;
+    box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.500);
 }
 
 #send-button{
@@ -225,8 +252,9 @@
     margin-left: 8px;
     border: none;
     background: linear-gradient(104deg, #EE02F3 0%, #4500FF 100%);
-    font-size: 20px;
+    font-size: 18px;
     text-align: right;
+    font-family: 'Roboto', sans-serif;
 }
 
 #user-text-container{
@@ -235,6 +263,7 @@
     flex-direction: column;
     align-items: flex-end;
     margin-bottom: 30px;
+    margin-right: 10px;
 }
 
 #user-text{
@@ -249,17 +278,24 @@
     overflow-wrap: break-word;
     border-radius: 15px;
     border-bottom-right-radius: 0px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
+
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+
+    font-weight: 400;
 }
 
 #user-text-time{
     color: #707070;
     display: flex;
-    justify-content: end;
-    font-size: 12px;
+    justify-content: flex-end;
+    font-size: 15px;
     margin-top: 5px;
     margin-right: 6px;
+    font-family: 'Roboto', sans-serif;
 }
     
 /*Estilos Chat*/

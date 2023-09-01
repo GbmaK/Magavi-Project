@@ -75,6 +75,7 @@ export default function Banner1() {
                             </dialog>
 
                             <dialog className="dialog" open={modalClick3}>
+                                <button id="dialog-close-btn-chat" onClick={handleModlaClick3}>X</button>
                                 <Chat></Chat>
  
                             </dialog>
