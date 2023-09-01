@@ -22,8 +22,8 @@ export default function Banner1() {
                         <div className="col-lg-12">
                             <div className="banner1-title-button">
                                 <h3>En Magavi ofrecemos soluciones reales</h3>
-                                <button  onClick={handleModlaClick2} className="gradient-btn wow fadeInLeft"> Innovación Digital</button>
-                                <button onClick={handleModlaClick1} className="gradient-btn gradient-btn-two wow fadeInRight">Ciberseguridad</button>
+                                <button  onClick={handleModlaClick1} className="gradient-btn wow fadeInLeft"> Innovación Digital</button>
+                                <button onClick={handleModlaClick2} className="gradient-btn gradient-btn-two wow fadeInRight">Ciberseguridad</button>
                             </div>
                             <dialog className="dialog" open={modalClick1}>
                                 <div className="dialog-container">
