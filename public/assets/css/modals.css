@@ -25,7 +25,7 @@
     z-index: 2;
     background-image: url('/assets/img/bg/error_bg.png');
     background-size: cover;
-    top: 20vh;
+    top: 25vh;
 }
 
 .dialog-container {
@@ -177,6 +177,7 @@
 #chat-messages-container{
     overflow-y: scroll;
     z-index: 1;
+    padding-bottom: 5vh;
 }
 
 #chat-messages-container::-webkit-scrollbar {
@@ -299,3 +300,39 @@
 }
     
 /*Estilos Chat*/
+
+
+
+/*Estilos chat mobil*/
+@media (max-width: 650px){
+    .dialog {
+        width: 95%;
+    }
+
+    #chat-input-container{
+        width: 90%;
+
+    }
+    
+
+    #textarea-container {
+        width: 75%;
+        overflow: hidden;
+    }
+
+    #user-text-container{
+        margin-right: 1px;
+    }
+
+    #user-text{
+        padding: 10px;
+    }
+
+    #user-text-time{
+        margin-right: 0px;
+    }
+}
+
+/*Estilos chat mobile*/
+
+/*Estilos modal mobile*/
