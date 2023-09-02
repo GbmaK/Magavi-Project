@@ -20,12 +20,12 @@
 
 .dialog {
     border-style: none;
-    width: 80%;
+    width: 95%;
     height: 70vh;
     z-index: 2;
     background-image: url('/assets/img/bg/error_bg.png');
     background-size: cover;
-    top: 25vh;
+    top: 30vh;
 }
 
 .dialog-container {
@@ -65,8 +65,9 @@
 .dialog-top-left-container h1{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-size: xx-large;
     font-weight: 400;
-    line-height: 7vh;
+    line-height: 6vh;
 }
 
 .dialog-span-gradient{
@@ -334,5 +335,88 @@
 }
 
 /*Estilos chat mobile*/
+@media (max-width: 880px){
 
+    .dialog-right-container {
+        transform: scale(0.8);
+        margin: 1vh 1vh;
+        width: 60%;
+        height: auto;
+    }
+
+    .dialog-top-left-container {
+        margin-top: 5%;
+        padding: 0 0 0 2.5vh;
+    }
+
+    .dialog-top-left-container h1 {
+        line-height: 4vh;
+        font-size: revert;
+        margin: 5vh 0 0;
+    }
+
+    .dialog-bottom-left-container {
+        height: 40vh;
+        width: 105%;
+    }
+
+    .dialog-bottom-left-container p {
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    #dialog-close-btn {
+        height: 6vh;
+    }
+
+    #dialog-chat-btn {
+        width: 25%;
+        height: 70%;
+    }
+
+
+}
+
+@media (max-width: 525px){
+
+    .dialog-container {
+        height: 50vh;
+    }
+
+    .dialog-bottom-left-container p {
+        font-size: x-small;
+        line-height: 20px;
+    }
+
+    .dialog-top-left-container {
+        padding: 0 0 0 2.5vh;
+    }
+    
+    #dialog-close-btn {
+        font-size: x-small;
+        height: 4vh;
+    }
+
+    #dialog-chat-btn {
+        width: 36%;
+        height: 5vh;
+        font-size: 0.8em;
+        margin-top: 3vh;
+    }
+
+    .dialog-top-left-container h1 {
+        line-height: 3vh;
+        font-size: medium;
+        margin: 5vh 0 0;
+    }
+
+    #dialog-close-btn {
+        margin-top: 3vh;
+    }
+
+    .dialog {
+        height: 63vh;
+    }
+
+}
 /*Estilos modal mobile*/
