@@ -114,7 +114,6 @@
 
 #dialog-close-btn:hover {
     transition: 300ms;
-
     color: #45F5F5;
     border: #45F5F5 solid 2px;
 }
@@ -127,15 +126,11 @@
     font-size: 1em;
     font-weight: 700;
     letter-spacing: 1px;
-
-    width: 17%;
+    width: 20%;
     height: 9vh;
-
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-
-
     border-radius: 15px;
     margin-right: 16%;
 }
@@ -335,7 +330,7 @@
 }
 
 /*Estilos chat mobile*/
-@media (max-width: 880px){
+@media (max-width: 770px){
 
     .dialog-right-container {
         transform: scale(0.8);
@@ -379,17 +374,36 @@
 
 @media (max-width: 525px){
 
+    .dialog {
+        height: 60vh;
+        top: 22vh;
+    }
+
     .dialog-container {
-        height: 50vh;
+        height: 47vh;
+    }
+
+    .dialog-left-containers {
+        margin-top: 2vh;
+        padding: 1vh;
+        height: auto;
+    }
+
+    .dialog-bottom-left-container {
+        width: 115%;
+        height: auto;
+        padding: 0;
     }
 
     .dialog-bottom-left-container p {
-        font-size: x-small;
+        font-size: small;
         line-height: 20px;
+        padding: 0;
     }
 
     .dialog-top-left-container {
-        padding: 0 0 0 2.5vh;
+        padding: 0;
+        margin-bottom: 2vh;
     }
     
     #dialog-close-btn {
@@ -401,7 +415,7 @@
         width: 36%;
         height: 5vh;
         font-size: 0.8em;
-        margin-top: 3vh;
+        margin-top: 0.5vh;
     }
 
     .dialog-top-left-container h1 {
@@ -412,11 +426,7 @@
 
     #dialog-close-btn {
         margin-top: 3vh;
+        margin-top: 1vh;
     }
-
-    .dialog {
-        height: 63vh;
-    }
-
 }
 /*Estilos modal mobile*/
