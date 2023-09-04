@@ -1,8 +1,8 @@
 
 
 export default function Video() {
-    return (
-        <>
+    return (<></>
+        /*<>
             <div className="video-area">
                 <div className="video-shape">
                     <svg height={1192} viewBox="0 0 1920 1192" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,6 +32,6 @@ export default function Video() {
                 </div>
             </div>
 
-        </>
+        </>*/
     )
 }

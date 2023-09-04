@@ -1,5 +1,6 @@
 import { useState } from "react"
 import YouTubeVideo from "../tools/YoutubeAPI"
+import Chat from "../chat/chatModal"
 
 export default function Banner1() {
     const videoId1 = '06bxyMCfdPA'
@@ -7,9 +8,13 @@ export default function Banner1() {
 
     const [modalClick1, setModal1] = useState(false)
     const [modalClick2, setModal2] = useState(false)
+    const [modalClick3, setModal3] = useState(false)
+    const [modalClick4, setModal4] = useState(false)
 
     const handleModlaClick1 = () => {modalClick1? setModal1(false): setModal1(true)}
     const handleModlaClick2 = () => {modalClick2? setModal2(false): setModal2(true)}
+    const handleModlaClick3 = () => {modalClick3? setModal3(false): setModal3(true)}
+    const handleModlaClick4 = () => {modalClick4? setModal4(false): setModal4(true)}
 
     return (
         <>
@@ -45,7 +50,7 @@ export default function Banner1() {
                                 </div>
                                 <div className="dialog-buttons">
                                     <button id="dialog-close-btn" onClick={handleModlaClick1}>Cerrar</button>
-                                    <button id="dialog-chat-btn">¿Conversamos?</button>
+                                    <button id="dialog-chat-btn" onClick={handleModlaClick4}>¿Conversamos?</button>
                                 </div>
                             </dialog>
 
@@ -67,10 +72,19 @@ export default function Banner1() {
                                 </div>
                                 <div className="dialog-buttons">
                                     <button id="dialog-close-btn" onClick={handleModlaClick2}>Cerrar</button>
-                                    <button id="dialog-chat-btn">¿Conversamos?</button>
+                                    <button id="dialog-chat-btn" onClick={handleModlaClick3}>¿Conversamos?</button>
                                 </div>
                             </dialog>
 
+                            <dialog className="dialog" open={modalClick3}>
+                                <button id="dialog-close-btn-chat" onClick={handleModlaClick3}>X</button>
+                                <Chat></Chat>
+                            </dialog>
+
+                            <dialog className="dialog" open={modalClick4}>
+                                <button id="dialog-close-btn-chat" onClick={handleModlaClick4}>X</button>
+                                <Chat></Chat>
+                            </dialog>
                         </div>
                     </div>
                 </div>
