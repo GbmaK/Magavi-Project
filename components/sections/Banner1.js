@@ -34,10 +34,10 @@ export default function Banner1() {
                                     </div>
 
                                     <div className="dialog-left-containers">
-                                        <div class="dialog-top-left-container">
+                                        <div className="dialog-top-left-container">
                                             <h1>SOLUCIONES <span className="dialog-span-gradient">INTELIGENTES</span></h1>
                                         </div>
-                                        <div class="dialog-bottom-left-container">
+                                        <div className="dialog-bottom-left-container">
                                             <p>Potencie su éxito de su negocio con 
                                             inteligencia artifcial. 
                                             Nuestras soluciones personalizadas 
@@ -61,10 +61,10 @@ export default function Banner1() {
                                     </div>
 
                                     <div className="dialog-left-containers">
-                                        <div class="dialog-top-left-container">
+                                        <div className="dialog-top-left-container">
                                             <h1>ASESORIA EN <span className="dialog-span-gradient">CIBERSEGURIDAD</span></h1>
                                         </div>
-                                        <div class="dialog-bottom-left-container">
+                                        <div className="dialog-bottom-left-container">
                                             <p>¿Tus datos están protegidos? Nuestro equipo de expertos en ciberseguridad y protección de 
                                                 datos están aquí para brindarle asesoría personalizada. Garantice la seguridad de su información.</p>
                                         </div>
