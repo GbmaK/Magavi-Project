@@ -6,6 +6,8 @@ export default function Banner1() {
     const videoId1 = '06bxyMCfdPA'
     const videoId2 = '8CC7f0Hr2cc'
 
+    
+
     const [modalClick1, setModal1] = useState(false)
     const [modalClick2, setModal2] = useState(false)
     const [modalClick3, setModal3] = useState(false)
@@ -78,12 +80,12 @@ export default function Banner1() {
 
                             <dialog className="dialog" open={modalClick3}>
                                 <button id="dialog-close-btn-chat" onClick={handleModlaClick3}>X</button>
-                                <Chat></Chat>
+                                <Chat context={1}></Chat>
                             </dialog>
 
                             <dialog className="dialog" open={modalClick4}>
                                 <button id="dialog-close-btn-chat" onClick={handleModlaClick4}>X</button>
-                                <Chat></Chat>
+                                <Chat context={2}></Chat>
                             </dialog>
                         </div>
                     </div>
