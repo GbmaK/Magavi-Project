@@ -26,6 +26,7 @@
     background-image: url('/assets/img/bg/error_bg.png');
     background-size: cover;
     top: 30vh;
+    border-radius: 50px;
 }
 
 .dialog-container {
@@ -155,6 +156,7 @@
     border: none;
     font-size: 20px;
     text-align: right;
+    z-index: 4;
 }
 
 #dialog-close-btn-chat:hover {

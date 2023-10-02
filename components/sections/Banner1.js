@@ -18,6 +18,8 @@ export default function Banner1() {
     const handleModlaClick3 = () => {modalClick3? setModal3(false): setModal3(true)}
     const handleModlaClick4 = () => {modalClick4? setModal4(false): setModal4(true)}
 
+    
+
     return (
         <>
             <section className="banner-area">
@@ -80,12 +82,12 @@ export default function Banner1() {
 
                             <dialog className="dialog" open={modalClick3}>
                                 <button id="dialog-close-btn-chat" onClick={handleModlaClick3}>X</button>
-                                <Chat context={1}></Chat>
+                                <Chat context={1} focus={modalClick3}></Chat>
                             </dialog>
 
                             <dialog className="dialog" open={modalClick4}>
                                 <button id="dialog-close-btn-chat" onClick={handleModlaClick4}>X</button>
-                                <Chat context={2}></Chat>
+                                <Chat context={2} focus={modalClick4}></Chat>
                             </dialog>
                         </div>
                     </div>
