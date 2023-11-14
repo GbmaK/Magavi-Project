@@ -4,7 +4,7 @@ export default function About() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle={<>About  <span>Dex.ai</span></>}>
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle={<>Acerca de  <span>Magavi Smart Solutions</span></>}>
                 <div>
                     {/* about-area */}
                     <section className="inner-about-area pb-115">
